@@ -5,8 +5,7 @@ import Params from '../components/Params';
 import TempColMap from '../components/TempColMap';
 import Video from '../components/Video';
 import ConstantData from '../components/ConstantData';
-import CurrentVoltage from '../components/CurrentVolatge';
-import Tempgraph from '../components/Tempgraph';
+import ThreeAxis from '../components/ThreeAxis';
 import '../App.css';
 
 const Layout = () => {
@@ -42,11 +41,8 @@ const Layout = () => {
 
 
         </div>
-        <div className='row-span-3 display-tempgraph'>
-          <Tempgraph />
-        </div>
-        <div className=' row-start-3 col-span-3'>
-          <CurrentVoltage />
+         <div className=' row-start-3 col-span-4'>
+          <ThreeAxis />
         </div>
 
 
