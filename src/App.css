@@ -146,3 +146,44 @@
 }
 
 
+.savegraph{
+  background-color: #efefef;
+  border:1px solid #666;
+  border-radius: 3%;
+  
+}
+.graphbtn{
+  border: solid 1px #4c72ad;
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5%;
+  
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.startgraphbtn, .stopgraphbtn{
+  border: solid 1px #000000;
+  background-color: #4c72ad;
+  color: #F3F3F3;
+  border-radius: 10%;
+  padding: 10%;
+  /* margin: 20px; */
+}
+
+.overlay{
+  background-color: #E4EAF3;
+  position: absolute;
+  width:max-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+}
+
+
+
